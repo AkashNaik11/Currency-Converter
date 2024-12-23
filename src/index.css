@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+button::before{
+    background: blue;
+    transition: all 0.7s;
+}
+
+button:hover::before
+{
+    top:-30px;
+    left: -30px;
+}
